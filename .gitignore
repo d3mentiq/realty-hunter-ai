@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Environment and Secrets
+.env
+*.pem
+*.key
+
+# SQLite Databases & Cache
+*.db
+*.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
+data/
+seen_flats.json
+
+# Logs & Temporary Files
+*.log
+*.png
+*.jpg
+*.jpeg
+last_msg.html
+claude_*.md
+claude_*.py
+test_artifact_*.py
+ask_*.py
+find_*.py
+fetch_*.py
+extract_*.py
+
+# OS Specific
+.DS_Store
+Thumbs.db
